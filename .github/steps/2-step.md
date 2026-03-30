@@ -44,7 +44,7 @@ Now we will extend the workflow to run [Playwright](https://playwright.dev/) bro
 
    Notice how we set the `archive` option to `false`. This will upload the Playwright report as a single file without zipping, allowing it to be previewed in the browser.
 
-   The `name` of the artifact will be derived from the uploaded file name, so in this case it will be `index.html`.
+   The artifact `name` will be derived from the uploaded file name, so in this case it will be `index.html`.
 
 1. Ensure that you formatted the YAML correctly and that the new `e2e` job is added at the same level as the existing `coverage` job.
 

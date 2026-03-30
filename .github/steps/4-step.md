@@ -105,13 +105,13 @@ Nice work! If you want an extra challenge, this bonus activity adds an approval 
 
    > 🪧 **Note:** This button is available because of the `workflow_dispatch` event trigger you added
 
-   This workflow does not have any jobs targeting `prod` but once it completes it will trigger the `Deploy Prod` workflow we just created, which does target `prod` and should get paused awaiting your approval.
+   This workflow does not have any jobs targeting `prod`, but once it completes, it will trigger the `Deploy Prod` workflow we just created. That workflow targets `prod` environment and will pause, awaiting your approval.
+
 
 1. Once the `Deploy Prod` workflow is triggered, click on it to see the details. You should see a yellow banner indicating that the job is waiting for approval.
 
     <img width="900" alt="Workflow run waiting for approval before the production job can continue" src="../images/approve-workflow.png" />
 
-1. You are now presented with a decision to approve or reject the deployment. Your message and decision will be displayed in the workflow run details for auditing purposes.
+1. You’ll now be prompted to approve or reject the deployment. Your message and decision will be displayed in the workflow run details for auditing purposes.
 
 </details>
-

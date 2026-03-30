@@ -21,7 +21,7 @@ jobs:
     uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@v0.9.1
     with:
       exercise-title: "Work with Workflow Artifacts"
-      intro-message: "Learn how to use workflow artifacts for storing and sharing data in GitHub Actions workflows."
+      intro-message: "Learn how to use workflow artifacts to store and share data in GitHub Actions workflows."
 
   post_next_step_content:
     name: Post next step content
