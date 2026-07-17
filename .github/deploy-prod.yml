@@ -15,7 +15,6 @@ jobs:
   prod:
     name: Deploy Prod
     runs-on: ubuntu-latest
-
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
     environment:
